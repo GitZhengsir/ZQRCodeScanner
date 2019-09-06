@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "ZQRCodeScanner"
-  spec.version      = "1.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A simple QR code scanner for personal use."
   spec.homepage     = "https://github.com/GitZhengsir/ZQRCodeScanner"
   spec.license      = "MIT"

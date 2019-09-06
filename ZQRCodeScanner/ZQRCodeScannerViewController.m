@@ -191,7 +191,10 @@
         }
         _backButton.frame = CGRectMake(15, y, 40, 40);
         
-        [_backButton setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSString *path = [bundle pathForResource:@"back@3x" ofType:@"png" inDirectory:@"ZQRCodeScanner.bundle"];
+        
+        [_backButton setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
         _backButton.backgroundColor = [UIColor colorWithWhite:0 alpha:0.4];
         _backButton.layer.cornerRadius = 20.0f;
         
