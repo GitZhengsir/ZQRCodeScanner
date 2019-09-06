@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF12C9CA2321FA000079C43D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF12C9C92321FA000079C43D /* AppDelegate.m */; };
+		BF12C9CD2321FA000079C43D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF12C9CC2321FA000079C43D /* ViewController.m */; };
+		BF12C9D02321FA000079C43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF12C9CE2321FA000079C43D /* Main.storyboard */; };
+		BF12C9D22321FA020079C43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF12C9D12321FA020079C43D /* Assets.xcassets */; };
+		BF12C9D52321FA020079C43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF12C9D32321FA020079C43D /* LaunchScreen.storyboard */; };
+		BF12C9D82321FA020079C43D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF12C9D72321FA020079C43D /* main.m */; };
+		BF12C9E12321FA380079C43D /* ZQRCodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF12C9E02321FA380079C43D /* ZQRCodeScannerViewController.m */; };
+		BF12C9E42321FA530079C43D /* ZQRMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF12C9E32321FA530079C43D /* ZQRMaskView.m */; };
+		BF12C9E62321FFFD0079C43D /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF12C9E52321FFFC0079C43D /* back@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF12C9C52321FA000079C43D /* ZQRCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQRCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF12C9C82321FA000079C43D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF12C9C92321FA000079C43D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF12C9CB2321FA000079C43D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF12C9CC2321FA000079C43D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF12C9CF2321FA000079C43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF12C9D12321FA020079C43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF12C9D42321FA020079C43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF12C9D62321FA020079C43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF12C9D72321FA020079C43D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF12C9DF2321FA380079C43D /* ZQRCodeScannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQRCodeScannerViewController.h; sourceTree = "<group>"; };
+		BF12C9E02321FA380079C43D /* ZQRCodeScannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQRCodeScannerViewController.m; sourceTree = "<group>"; };
+		BF12C9E22321FA530079C43D /* ZQRMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQRMaskView.h; sourceTree = "<group>"; };
+		BF12C9E32321FA530079C43D /* ZQRMaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQRMaskView.m; sourceTree = "<group>"; };
+		BF12C9E52321FFFC0079C43D /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF12C9C22321FA000079C43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF12C9BC2321FA000079C43D = {
+			isa = PBXGroup;
+			children = (
+				BF12C9DE2321FA160079C43D /* ZQRCodeScanner */,
+				BF12C9C72321FA000079C43D /* ZQRCodeDemo */,
+				BF12C9C62321FA000079C43D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF12C9C62321FA000079C43D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF12C9C52321FA000079C43D /* ZQRCodeScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF12C9C72321FA000079C43D /* ZQRCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF12C9C82321FA000079C43D /* AppDelegate.h */,
+				BF12C9C92321FA000079C43D /* AppDelegate.m */,
+				BF12C9CB2321FA000079C43D /* ViewController.h */,
+				BF12C9CC2321FA000079C43D /* ViewController.m */,
+				BF12C9CE2321FA000079C43D /* Main.storyboard */,
+				BF12C9D12321FA020079C43D /* Assets.xcassets */,
+				BF12C9D32321FA020079C43D /* LaunchScreen.storyboard */,
+				BF12C9D62321FA020079C43D /* Info.plist */,
+				BF12C9D72321FA020079C43D /* main.m */,
+			);
+			path = ZQRCodeDemo;
+			sourceTree = "<group>";
+		};
+		BF12C9DE2321FA160079C43D /* ZQRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				BF12C9DF2321FA380079C43D /* ZQRCodeScannerViewController.h */,
+				BF12C9E02321FA380079C43D /* ZQRCodeScannerViewController.m */,
+				BF12C9E22321FA530079C43D /* ZQRMaskView.h */,
+				BF12C9E32321FA530079C43D /* ZQRMaskView.m */,
+				BF12C9E52321FFFC0079C43D /* back@3x.png */,
+			);
+			path = ZQRCodeScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF12C9C42321FA000079C43D /* ZQRCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF12C9DB2321FA020079C43D /* Build configuration list for PBXNativeTarget "ZQRCodeScanner" */;
+			buildPhases = (
+				BF12C9C12321FA000079C43D /* Sources */,
+				BF12C9C22321FA000079C43D /* Frameworks */,
+				BF12C9C32321FA000079C43D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQRCodeScanner;
+			productName = ZQRCodeScanner;
+			productReference = BF12C9C52321FA000079C43D /* ZQRCodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF12C9BD2321FA000079C43D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				TargetAttributes = {
+					BF12C9C42321FA000079C43D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BF12C9C02321FA000079C43D /* Build configuration list for PBXProject "ZQRCodeScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF12C9BC2321FA000079C43D;
+			productRefGroup = BF12C9C62321FA000079C43D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF12C9C42321FA000079C43D /* ZQRCodeScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF12C9C32321FA000079C43D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF12C9E62321FFFD0079C43D /* back@3x.png in Resources */,
+				BF12C9D52321FA020079C43D /* LaunchScreen.storyboard in Resources */,
+				BF12C9D22321FA020079C43D /* Assets.xcassets in Resources */,
+				BF12C9D02321FA000079C43D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF12C9C12321FA000079C43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF12C9CD2321FA000079C43D /* ViewController.m in Sources */,
+				BF12C9D82321FA020079C43D /* main.m in Sources */,
+				BF12C9E12321FA380079C43D /* ZQRCodeScannerViewController.m in Sources */,
+				BF12C9CA2321FA000079C43D /* AppDelegate.m in Sources */,
+				BF12C9E42321FA530079C43D /* ZQRMaskView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF12C9CE2321FA000079C43D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF12C9CF2321FA000079C43D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF12C9D32321FA020079C43D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF12C9D42321FA020079C43D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF12C9D92321FA020079C43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF12C9DA2321FA020079C43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF12C9DC2321FA020079C43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62G8H2JT8;
+				INFOPLIST_FILE = "$(SRCROOT)/ZQRCodeDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyh.ZQRCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF12C9DD2321FA020079C43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62G8H2JT8;
+				INFOPLIST_FILE = "$(SRCROOT)/ZQRCodeDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyh.ZQRCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF12C9C02321FA000079C43D /* Build configuration list for PBXProject "ZQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF12C9D92321FA020079C43D /* Debug */,
+				BF12C9DA2321FA020079C43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF12C9DB2321FA020079C43D /* Build configuration list for PBXNativeTarget "ZQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF12C9DC2321FA020079C43D /* Debug */,
+				BF12C9DD2321FA020079C43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF12C9BD2321FA000079C43D /* Project object */;
+}
